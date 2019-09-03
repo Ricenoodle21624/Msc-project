@@ -1,0 +1,319 @@
+Memory Test 1 Start: 2019-08-13 14:23:14.336290
+sysbench 1.0.17 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 1
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 10240MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 10485760 (3441756.82 per second)
+
+10240.00 MiB transferred (3361.09 MiB/sec)
+
+
+General statistics:
+    total time:                          3.0420s
+    total number of events:              10485760
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.13
+         95th percentile:                        0.00
+         sum:                                 1334.01
+
+Threads fairness:
+    events (avg/stddev):           10485760.0000/0.00
+    execution time (avg/stddev):   1.3340/0.00
+
+Memory Test 1 End: 2019-08-13 14:23:17.400384
+Memory Test 2 Start: 2019-08-13 14:23:17.400512
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.17 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 2
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 10240MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 10485760 (5026384.57 per second)
+
+10240.00 MiB transferred (4989.81 MiB/sec)
+
+
+General statistics:
+    total time:                          2.1312s
+    total number of events:              10485760
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.17
+         95th percentile:                        0.00
+         sum:                                 3694.39
+
+Threads fairness:
+    events (avg/stddev):           5242880.0000/0.00
+    execution time (avg/stddev):   1.3472/0.11
+
+Memory Test 2 End: 2019-08-13 14:23:19.953871
+Memory Test 3 Start: 2019-08-13 14:23:19.953993
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.17 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 3
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 10240MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 10485759 (6386733.19 per second)
+
+10240.00 MiB transferred (6330.79 MiB/sec)
+
+
+General statistics:
+    total time:                          1.9889s
+    total number of events:              10485759
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.14
+         95th percentile:                        0.00
+         sum:                                 3909.80
+
+Threads fairness:
+    events (avg/stddev):           3495253.0000/0.00
+    execution time (avg/stddev):   1.3366/0.01
+
+Memory Test 3 End: 2019-08-13 14:23:21.364599
+Memory Test 4 Start: 2019-08-13 14:23:21.364681
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.17 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 4
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 10240MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 10485760 (7700197.09 per second)
+
+10240.00 MiB transferred (7636.91 MiB/sec)
+
+
+General statistics:
+    total time:                          1.8788s
+    total number of events:              10485760
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.11
+         95th percentile:                        0.00
+         sum:                                4976.24
+
+Threads fairness:
+    events (avg/stddev):           2621440.0000/0.00
+    execution time (avg/stddev):   1.2441/0.02
+
+Memory Test 4 End: 2019-08-13 14:23:23.259059
+Memory Test 5 Start: 2019-08-13 14:23:23.259190
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.17 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 5
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 10240MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 10485760 (7122537.21 per second)
+
+10240.00 MiB transferred (7049.35 MiB/sec)
+
+
+General statistics:
+    total time:                          1.3535s
+    total number of events:              10485760
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.13
+         95th percentile:                        0.00
+         sum:                                 4100.80
+
+Threads fairness:
+    events (avg/stddev):           2097152.0000/0.00
+    execution time (avg/stddev):   0.8202/0.11
+
+Memory Test 5 End: 2019-08-13 14:23:24.634531
+Memory Test 6 Start: 2019-08-13 14:23:24.634603
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.17 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 6
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 10240MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 10485756 (7281225.59 per second)
+
+10240.00 MiB transferred (7204.32 MiB/sec)
+
+
+General statistics:
+    total time:                          1.5918s
+    total number of events:              10485756
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.10
+         95th percentile:                        0.00
+         sum:                                 6662.11
+
+Threads fairness:
+    events (avg/stddev):           1747626.0000/0.00
+    execution time (avg/stddev):   0.7770/0.03
+
+Memory Test 6 End: 2019-08-13 14:23:26.847954
+Memory Test 7 Start: 2019-08-13 14:23:26.848047
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.17 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 7
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 10240MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 10485755 (7638265.82 per second)
+
+10240.00 MiB transferred (7552.99 MiB/sec)
+
+
+General statistics:
+    total time:                          1.8802s
+    total number of events:              10485755
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.07
+         95th percentile:                        0.00
+         sum:                                 7172.16
+
+Threads fairness:
+    events (avg/stddev):           1497965.0000/0.00
+    execution time (avg/stddev):   1.4532/0.12
+
+Memory Test 7 End: 2019-08-13 14:23:28.746054
+Memory Test 8 Start: 2019-08-13 14:23:28.746153
+WARNING: --num-threads is deprecated, use --threads instead
+sysbench 1.0.17 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 8
+Initializing random number generator from current time
+
+
+Running memory speed test with the following options:
+  block size: 1KiB
+  total size: 10240MiB
+  operation: write
+  scope: global
+
+Initializing worker threads...
+
+Threads started!
+
+Total operations: 10485760 (8256327.23 per second)
+
+10240.00 MiB transferred (8180.01 MiB/sec)
+
+
+General statistics:
+    total time:                          1.2156s
+    total number of events:              10485760
+
+Latency (ms):
+         min:                                    0.00
+         avg:                                    0.00
+         max:                                    1.04
+         95th percentile:                        0.00
+         sum:                                 2741.26
+
+Threads fairness:
+    events (avg/stddev):           1310720.0000/0.00
+    execution time (avg/stddev):   0.8427/0.09
+
+Memory Test 8 End: 2019-08-13 14:23:29.984316
